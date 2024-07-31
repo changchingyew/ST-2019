@@ -77,21 +77,12 @@ def is_glitched(img):
 
 
 	return 0
-<<<<<<< HEAD
 
 
 h, w = 270, 480
 area = h * w
 
 
-=======
-
-
-h, w = 270, 480
-area = h * w
-
-
->>>>>>> ca1cf5104208603b2f19c03d7e42207a05e98af1
 def classify(img):
 	img = cv2.resize(img, (w, h))
 
@@ -179,8 +170,6 @@ def test(X):
 # ed = time.time()
 
 # print("total", ed - st)
-<<<<<<< HEAD
-=======
 
 
 
@@ -189,13 +178,6 @@ def test(X):
 # print(matrix)
 
 
-
-
-
-
-
-
->>>>>>> ca1cf5104208603b2f19c03d7e42207a05e98af1
 
 
 

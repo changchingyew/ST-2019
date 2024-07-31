@@ -1,0 +1,10 @@
+#Work with python3.7
+tensorflow
+opencv-python
+matplotlib
+numpy
+scipy
+scikit-image
+scikit_learn==0.22.2.post1
+Pillow
+imutils

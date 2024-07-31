@@ -18,7 +18,7 @@ resize = lambda img: cv2.resize(img, dim, interpolation = cv2.INTER_NEAREST)
 
 def HOG(img, norm = 'L2', ppc = 10, cpb = 3):
     pff = hog(img, orientations= 12, pixels_per_cell=(ppc, ppc),
-              cells_per_block=(cpb, cpb), multichannel=True, transform_sqrt=True, block_norm= norm)
+              cells_per_block=(cpb, cpb), channel_axis=2, transform_sqrt=True, block_norm= norm)
     return pff
 
 
